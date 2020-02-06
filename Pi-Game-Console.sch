@@ -25,17 +25,6 @@ F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 15700 2300 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:HDMI_A J2
-U 1 1 5E3B6A4F
-P 8700 3650
-F 0 "J2" H 9130 3696 50  0000 L CNN
-F 1 "HDMI_A" H 9130 3605 50  0000 L CNN
-F 2 "Connector_HDMI:HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal" H 8725 3650 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 8725 3650 50  0001 C CNN
-	1    8700 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR0102
 U 1 1 5E3BE9FC
 P 1400 2850
@@ -45,76 +34,6 @@ F 2 "" H 1400 2850 50  0001 C CNN
 F 3 "" H 1400 2850 50  0001 C CNN
 	1    1400 2850
 	0    -1   -1   0   
-$EndComp
-Text GLabel 6750 4300 2    50   Output ~ 0
-HDMI_CEC
-Text GLabel 6750 4600 2    50   Output ~ 0
-HDMI_SCL
-Text GLabel 6750 3100 2    50   Output ~ 0
-HDMI_CLK_P
-Text GLabel 6750 4450 2    50   Output ~ 0
-HDMI_SDA
-Text GLabel 6750 2950 2    50   Output ~ 0
-HDMI_CLK_N
-Text GLabel 6750 3400 2    50   Output ~ 0
-HDMI_D0_P
-Text GLabel 6750 3250 2    50   Output ~ 0
-HDMI_D0_N
-Text GLabel 6750 3700 2    50   Output ~ 0
-HDMI_D1_P
-Text GLabel 6750 3550 2    50   Output ~ 0
-HDMI_D1_N
-Text GLabel 6750 4000 2    50   Output ~ 0
-HDMI_D2_P
-Text GLabel 6750 3850 2    50   Output ~ 0
-HDMI_D2_N
-Text GLabel 8300 3750 0    50   Input ~ 0
-HDMI_CEC
-Text GLabel 8300 3950 0    50   Input ~ 0
-HDMI_SCL
-Text GLabel 8300 3450 0    50   Input ~ 0
-HDMI_CLK_P
-Text GLabel 8300 4050 0    50   Input ~ 0
-HDMI_SDA
-Text GLabel 8300 3550 0    50   Input ~ 0
-HDMI_CLK_N
-Text GLabel 8300 3250 0    50   Input ~ 0
-HDMI_D0_P
-Text GLabel 8300 3350 0    50   Input ~ 0
-HDMI_D0_N
-Text GLabel 8300 3050 0    50   Input ~ 0
-HDMI_D1_P
-Text GLabel 8300 3150 0    50   Input ~ 0
-HDMI_D1_N
-Text GLabel 8300 2850 0    50   Input ~ 0
-HDMI_D2_P
-Text GLabel 8300 2950 0    50   Input ~ 0
-HDMI_D2_N
-Text GLabel 8300 4350 0    50   Input ~ 0
-HDMI_HPD_N_1V8
-Text GLabel 6750 2650 2    50   Output ~ 0
-HDMI_HPD_N_1V8
-$Comp
-L power:+5V #PWR0104
-U 1 1 5E3E149F
-P 8700 2550
-F 0 "#PWR0104" H 8700 2400 50  0001 C CNN
-F 1 "+5V" H 8715 2723 50  0000 C CNN
-F 2 "" H 8700 2550 50  0001 C CNN
-F 3 "" H 8700 2550 50  0001 C CNN
-	1    8700 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 5E3E1C78
-P 8900 4750
-F 0 "#PWR0105" H 8900 4500 50  0001 C CNN
-F 1 "GND" H 8905 4577 50  0000 C CNN
-F 2 "" H 8900 4750 50  0001 C CNN
-F 3 "" H 8900 4750 50  0001 C CNN
-	1    8900 4750
-	1    0    0    -1  
 $EndComp
 Text GLabel 13100 2400 2    50   Output ~ 0
 SDX_CLK
@@ -151,20 +70,6 @@ F 3 "" H 16500 2900 50  0001 C CNN
 	1    16500 2900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8900 4750 9000 4750
-Connection ~ 8900 4750
-Wire Wire Line
-	8500 4750 8600 4750
-Connection ~ 8600 4750
-Wire Wire Line
-	8600 4750 8700 4750
-Connection ~ 8700 4750
-Wire Wire Line
-	8700 4750 8800 4750
-Connection ~ 8800 4750
-Wire Wire Line
-	8800 4750 8900 4750
 $Comp
 L power:+5V #PWR0109
 U 1 1 5E3E8D41
