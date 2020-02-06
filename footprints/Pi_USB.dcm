@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FE1.1s
+D FE1.1s USB Hub Controller
+K USB Hub Controller
+$ENDCMP
+#
+#End Doc Library

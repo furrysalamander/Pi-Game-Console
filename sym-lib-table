@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name KiCADinfo_RPi-modules)(type Legacy)(uri ${KIPRJMOD}/components/KiCADinfo_RPi-modules.lib)(options "")(descr ""))
+  (lib (name USB_Hub-cache)(type Legacy)(uri ${KIPRJMOD}/components/USB_Hub-cache.lib)(options "")(descr ""))
+  (lib (name tm-kicad-lib)(type Legacy)(uri ${KIPRJMOD}/components/tm-kicad-lib.lib)(options "")(descr ""))
+  (lib (name Pi_USB)(type Legacy)(uri ${KIPRJMOD}/footprints/Pi_USB.lib)(options "")(descr ""))
+)
