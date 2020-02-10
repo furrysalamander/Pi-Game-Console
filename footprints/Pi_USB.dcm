@@ -5,4 +5,12 @@ D FE1.1s USB Hub Controller
 K USB Hub Controller
 $ENDCMP
 #
+$CMP NC7WZ16
+D TinyLogic UHS Dual Buffer  https://www.onsemi.com/pub/Collateral/NC7WZ16-D.PDF
+$ENDCMP
+#
+$CMP TDA2822
+D DUAL LOW VOLTAGE POWER AMPLIFIER http://www.unisonic.com.tw/datasheet/TDA2822.pdf
+$ENDCMP
+#
 #End Doc Library
