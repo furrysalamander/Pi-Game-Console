@@ -1933,55 +1933,55 @@ Wire Wire Line
 	20050 8850 20050 9150
 Wire Wire Line
 	20050 9150 19900 9150
-Text GLabel 6450 13350 0    50   Input ~ 0
+Text GLabel 6850 13350 0    50   Input ~ 0
 DISP_B2
-Text GLabel 6450 13450 0    50   Input ~ 0
+Text GLabel 6850 13450 0    50   Input ~ 0
 DISP_B3
-Text GLabel 6450 13550 0    50   Input ~ 0
+Text GLabel 6850 13550 0    50   Input ~ 0
 DISP_B4
-Text GLabel 6200 14300 0    50   Input ~ 0
+Text GLabel 6600 14300 0    50   Input ~ 0
 DISP_H_SYNC
-Text GLabel 6200 14400 0    50   Input ~ 0
+Text GLabel 6600 14400 0    50   Input ~ 0
 DISP_V_SYNC
-Text GLabel 6450 13650 0    50   Input ~ 0
+Text GLabel 6850 13650 0    50   Input ~ 0
 DISP_B5
-Text GLabel 6450 13750 0    50   Input ~ 0
+Text GLabel 6850 13750 0    50   Input ~ 0
 DISP_B6
-Text GLabel 6450 13850 0    50   Input ~ 0
+Text GLabel 6850 13850 0    50   Input ~ 0
 DISP_B7
-Text GLabel 6450 12750 0    50   Input ~ 0
+Text GLabel 6850 12750 0    50   Input ~ 0
 DISP_G4
-Text GLabel 6450 12850 0    50   Input ~ 0
+Text GLabel 6850 12850 0    50   Input ~ 0
 DISP_G5
-Text GLabel 6450 12950 0    50   Input ~ 0
+Text GLabel 6850 12950 0    50   Input ~ 0
 DISP_G6
-Text GLabel 6450 13050 0    50   Input ~ 0
+Text GLabel 6850 13050 0    50   Input ~ 0
 DISP_G7
-Text GLabel 6200 14200 0    50   Input ~ 0
+Text GLabel 6600 14200 0    50   Input ~ 0
 DISP_CLK
-Text GLabel 6200 14500 0    50   Input ~ 0
+Text GLabel 6600 14500 0    50   Input ~ 0
 DISP_DE
-Text GLabel 6450 13150 0    50   Input ~ 0
+Text GLabel 6850 13150 0    50   Input ~ 0
 DISP_B0
-Text GLabel 6450 13250 0    50   Input ~ 0
+Text GLabel 6850 13250 0    50   Input ~ 0
 DISP_B1
-Text GLabel 6450 12350 0    50   Input ~ 0
+Text GLabel 6850 12350 0    50   Input ~ 0
 DISP_G0
-Text GLabel 6450 11750 0    50   Input ~ 0
+Text GLabel 6850 11750 0    50   Input ~ 0
 DISP_R2
-Text GLabel 6450 11550 0    50   Input ~ 0
+Text GLabel 6850 11550 0    50   Input ~ 0
 DISP_R0
-Text GLabel 6450 11650 0    50   Input ~ 0
+Text GLabel 6850 11650 0    50   Input ~ 0
 DISP_R1
-Text GLabel 6450 11850 0    50   Input ~ 0
+Text GLabel 6850 11850 0    50   Input ~ 0
 DISP_R3
-Text GLabel 6450 11950 0    50   Input ~ 0
+Text GLabel 6850 11950 0    50   Input ~ 0
 DISP_R4
-Text GLabel 6450 12050 0    50   Input ~ 0
+Text GLabel 6850 12050 0    50   Input ~ 0
 DISP_R5
-Text GLabel 6450 12150 0    50   Input ~ 0
+Text GLabel 6850 12150 0    50   Input ~ 0
 DISP_R6
-Text GLabel 6450 12250 0    50   Input ~ 0
+Text GLabel 6850 12250 0    50   Input ~ 0
 DISP_R7
 $Comp
 L power:GND #PWR023
@@ -2774,61 +2774,6 @@ Wire Wire Line
 	11300 2750 10800 2750
 Wire Wire Line
 	10800 2750 10800 2450
-$Comp
-L Device:R_Pack04 RN2
-U 1 1 5E45DF44
-P 6650 11750
-F 0 "RN2" V 6233 11750 50  0000 C CNN
-F 1 "R_Pack04" V 6324 11750 50  0000 C CNN
-F 2 "" V 6925 11750 50  0001 C CNN
-F 3 "~" H 6650 11750 50  0001 C CNN
-	1    6650 11750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN3
-U 1 1 5E4602BE
-P 6650 12150
-F 0 "RN3" V 6233 12150 50  0000 C CNN
-F 1 "R_Pack04" V 6324 12150 50  0000 C CNN
-F 2 "" V 6925 12150 50  0001 C CNN
-F 3 "~" H 6650 12150 50  0001 C CNN
-	1    6650 12150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN6
-U 1 1 5E4620A6
-P 6650 13350
-F 0 "RN6" V 6233 13350 50  0000 C CNN
-F 1 "R_Pack04" V 6324 13350 50  0000 C CNN
-F 2 "" V 6925 13350 50  0001 C CNN
-F 3 "~" H 6650 13350 50  0001 C CNN
-	1    6650 13350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN7
-U 1 1 5E462A96
-P 6650 13750
-F 0 "RN7" V 6233 13750 50  0000 C CNN
-F 1 "R_Pack04" V 6324 13750 50  0000 C CNN
-F 2 "" V 6925 13750 50  0001 C CNN
-F 3 "~" H 6650 13750 50  0001 C CNN
-	1    6650 13750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN1
-U 1 1 5E4F56A2
-P 6400 14400
-F 0 "RN1" V 5983 14400 50  0000 C CNN
-F 1 "R_Pack04" V 6074 14400 50  0000 C CNN
-F 2 "" V 6675 14400 50  0001 C CNN
-F 3 "~" H 6400 14400 50  0001 C CNN
-	1    6400 14400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6600 14300 6750 14300
 Wire Wire Line
@@ -3172,33 +3117,11 @@ F 3 "" H 8600 8600 50  0001 C CNN
 	1    8600 8600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Pack04 RN5
-U 1 1 5E4617F3
-P 6650 12950
-F 0 "RN5" V 6233 12950 50  0000 C CNN
-F 1 "R_Pack04" V 6324 12950 50  0000 C CNN
-F 2 "" V 6925 12950 50  0001 C CNN
-F 3 "~" H 6650 12950 50  0001 C CNN
-	1    6650 12950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN4
-U 1 1 5E460C5D
-P 6650 12550
-F 0 "RN4" V 6233 12550 50  0000 C CNN
-F 1 "R_Pack04" V 6324 12550 50  0000 C CNN
-F 2 "" V 6925 12550 50  0001 C CNN
-F 3 "~" H 6650 12550 50  0001 C CNN
-	1    6650 12550
-	0    1    1    0   
-$EndComp
-Text GLabel 6450 12450 0    50   Input ~ 0
+Text GLabel 6850 12450 0    50   Input ~ 0
 DISP_G1
-Text GLabel 6450 12650 0    50   Input ~ 0
+Text GLabel 6850 12650 0    50   Input ~ 0
 DISP_G3
-Text GLabel 6450 12550 0    50   Input ~ 0
+Text GLabel 6850 12550 0    50   Input ~ 0
 DISP_G2
 $Comp
 L Connector:Conn_01x40_Female J2
@@ -3278,7 +3201,7 @@ L Audio:UDA1334ATS U?
 U 1 1 600B6BA3
 P 6800 5700
 F 0 "U?" H 6450 6350 50  0000 C CNN
-F 1 "UDA1334A" H 6500 5050 50  0000 C CNN
+F 1 "UDA1334ATS" H 6450 5050 50  0000 C CNN
 F 2 "Package_SO:SSOP-16_4.4x5.2mm_P0.65mm" H 6800 5700 50  0001 C CNN
 F 3 "http://www.nxp.com/docs/en/data-sheet/UDA1334ATS.pdf" H 6800 5700 50  0001 C CNN
 	1    6800 5700
