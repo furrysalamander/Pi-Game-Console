@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/footprints)(options "")(descr ""))
+  (lib (name HDMI_MOLEX)(type KiCad)(uri ${KIPRJMOD}/footprints/HDMI_MOLEX.pretty)(options "")(descr ""))
 )
