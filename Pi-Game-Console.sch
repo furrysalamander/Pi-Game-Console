@@ -3961,4 +3961,6 @@ F 3 "" H 16400 10800 50  0001 C CNN
 	1    16400 10800
 	1    0    0    -1  
 $EndComp
+Text Notes 12750 8900 0    150  ~ 0
+Power Converters
 $EndSCHEMATC
